@@ -372,7 +372,31 @@ error: (err) => {
 });
 $('#light132').click(() => {
     $.ajax({
-    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=3&universe3=3&priority3=100&mode3=10&legend3=Uni+4&cast3=&snapshot3=0&snapshotTime3=&node=1&submitted=1&save=Submit+Changes&ip=2.0.0.2&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+1",
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=32&universe3=32&priority3=100&mode3=10&legend3=PixyLine&cast3=&snapshot3=0&snapshotTime3=&node=1&submitted=1&save=Submit+Changes&ip=2.0.0.2&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+1",
+    type: 'GET',
+    success: (result) => {
+    console.log(`Success: ${JSON.stringify(result)}`);
+},
+error: (err) => {
+    console.log(`Error: ${JSON.stringify(err)}`);
+}
+});
+});
+$('#light133').click(() => {
+    $.ajax({
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=33&universe3=33&priority3=100&mode3=10&legend3=ColorForce1&cast3=&snapshot3=0&snapshotTime3=&node=1&submitted=1&save=Submit+Changes&ip=2.0.0.2&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+1",
+    type: 'GET',
+    success: (result) => {
+    console.log(`Success: ${JSON.stringify(result)}`);
+},
+error: (err) => {
+    console.log(`Error: ${JSON.stringify(err)}`);
+}
+});
+});
+$('#light134').click(() => {
+    $.ajax({
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=34&universe3=34&priority3=100&mode3=10&legend3=ColorForce2&cast3=&snapshot3=0&snapshotTime3=&node=1&submitted=1&save=Submit+Changes&ip=2.0.0.2&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+1",
     type: 'GET',
     success: (result) => {
     console.log(`Success: ${JSON.stringify(result)}`);
@@ -757,7 +781,7 @@ error: (err) => {
 });
 $('#light232').click(() => {
     $.ajax({
-    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=3&universe3=3&priority3=100&mode3=10&legend3=Uni+4&cast3=&snapshot3=0&snapshotTime3=&node=2&submitted=1&save=Submit+Changes&ip=2.0.0.3&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+2",
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=32&universe3=32&priority3=100&mode3=10&legend3=PixyLine&cast3=&snapshot3=0&snapshotTime3=&node=2&submitted=1&save=Submit+Changes&ip=2.0.0.3&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+2",
     type: 'GET',
     success: (result) => {
     console.log(`Success: ${JSON.stringify(result)}`);
@@ -767,4 +791,27 @@ error: (err) => {
 }
 });
 });
-
+$('#light233').click(() => {
+    $.ajax({
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=33&universe3=33&priority3=100&mode3=10&legend3=ColorForce1&cast3=&snapshot3=0&snapshotTime3=&node=2&submitted=1&save=Submit+Changes&ip=2.0.0.3&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+2",
+    type: 'GET',
+    success: (result) => {
+    console.log(`Success: ${JSON.stringify(result)}`);
+},
+error: (err) => {
+    console.log(`Error: ${JSON.stringify(err)}`);
+}
+});
+});
+$('#light234').click(() => {
+    $.ajax({
+    url: "http://2.0.0.3/cgi-bin/setup_node.cgi?inout0=1&protocol0=0&universe_combi0=32&universe0=32&priority0=100&mode0=12&merge0=-1&legend0=PixyLine&cast0=&rdm0=on&rdmPoll0=on&snapshot0=0&snapshotTime0=&inout1=1&protocol1=0&universe_combi1=2&universe1=2&priority1=100&mode1=10&legend1=Uni+2&cast1=&snapshot1=0&snapshotTime1=&inout2=1&protocol2=0&universe_combi2=2&universe2=2&priority2=100&mode2=10&legend2=Uni+3&cast2=&snapshot2=0&snapshotTime2=&inout3=1&protocol3=0&universe_combi3=34&universe3=34&priority3=100&mode3=10&legend3=ColorForce2&cast3=&snapshot3=0&snapshotTime3=&node=2&submitted=1&save=Submit+Changes&ip=2.0.0.3&mask=255.0.0.0&gateway=&port=1936&rdmip=0.0.0.0&short_name=ML+Node+1&long_name=Moving+Lights+Node+2",
+    type: 'GET',
+    success: (result) => {
+    console.log(`Success: ${JSON.stringify(result)}`);
+},
+error: (err) => {
+    console.log(`Error: ${JSON.stringify(err)}`);
+}
+});
+});
