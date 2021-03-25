@@ -1,0 +1,28 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.btn-default{
+  background-color: #753bbd;
+  color:#ffffff;
+  border-color: #2F3E48;
+  width: 100%;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  background-color: #2F3E48;
+  color:#FFF;
+  border-color: #31347B;
+}
+
+.bg-tsl{
+  background-color: #753bbd;
+}
+
+#neartruss.bg-tslgrey{
+  background-color: #5b6770;
+}
